@@ -1,0 +1,115 @@
+# Función para calcular la temperatura promedio de varias ciudades
+def calcular_temperaturas_promedio(ciudad1, ciudad2, ciudad3):
+    # Verificar que las listas no estén vacías
+    
+   
+if len(ciudad1) == 0 or len(ciudad2) == 0 or len(ciudad3) == 0:
+        
+        retur
+
+        re
+
+       
+return "Al menos una de las ciudades no tiene datos suficientes."
+
+    # Calcular el promedio de cada ciudad
+    promedio_ciudad1 = 
+    promedio_c
+
+    prome
+
+    pr
+
+   
+sum(ciudad1) / len(ciudad1)
+    promedio_ciudad2 = 
+    promedio_ciudad2
+
+    promedio_ci
+sum(ciudad2) / len(ciudad2)
+    promedio_ciudad3 = 
+    promedio_ciudad3 =
+
+    promedio_ciudad3
+
+    promedio_ciudad
+
+   
+sum(ciudad3) / len(ciudad3)
+
+    
+
+   
+
+
+# Retornar los promedios de cada ciudad
+    
+    ret
+
+   
+return promedio_ciudad1, promedio_ciudad2, promedio_ciudad3
+
+# Datos de ejemplo: temperaturas semanales de 3 ciudades (en °C)
+temperaturas_ciudad1 = [
+temperaturas
+
+temper
+22.5, 23.1, 21.9, 24.3, 25.2, 23.8, 22.0]  # Semana 1 - Ciudad 1
+temperaturas_ciudad2 = [
+temperaturas_ciudad2 = [
+
+temperaturas_ciudad2 =
+
+temperaturas_ciudad2
+
+temperaturas_ciudad
+
+temperaturas_ci
+
+temper
+19.5, 20.3, 19.8, 21.0, 22.1, 20.8, 21.4]  # Semana 1 - Ciudad 2
+temperaturas_ciudad3 = [
+temperatu
+
+temper
+25.0, 24.5, 26.1, 25.8, 27.2, 26.9, 27.0]  # Semana 1 - Ciudad 3
+
+# Llamada a la función y resultado
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ciudad2, temperaturas_ciudad3)
+
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ciudad2, temperaturas_ciudad
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ciudad2, temperaturas
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ciudad2,
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ciudad2
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1, temperaturas_ci
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad1,
+
+promedios = calcular_temperaturas_promedio(temperaturas_ciudad
+
+promedios = calcular_temperaturas_promedio(temperaturas
+
+promedios = calcular_temperaturas_promedio(
+
+promedios = calcular_temperaturas_prom
+
+promedios = calcular_temper
+
+promedios = calcular
+
+promedios =
+
+promedios
+
+prom
+# Mostrar los resultados
+print(f"Temperatura promedio de la Ciudad 1: {promedios[0]:.2f}°C")
+print(f"Temperatura promedio de la Ciudad 2: {promedios[1]:.2f}°C")
+print(f"Temperatura promedio de la Ciudad 3: {promedios[2]:.2f}°C")
+
+``
